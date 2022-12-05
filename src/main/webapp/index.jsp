@@ -2,11 +2,17 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Home</title>
-</head>
-<body>
-	<h1>Bienvenios!!</h1>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<link href="./css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1 style="color: red; text-align: center;">Bienvenios!!</h1>
+		<%= new java.util.Date() %> <br> <br> <br>
+		<a href="./usuarios">Ir a UsuariosController</a>
+		<br><br>
+		<a href="./register.jsp">Ir a Registrarse</a>
+		<script src="./js/app.js"></script>
+	</body>
 </html>
